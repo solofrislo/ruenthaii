@@ -1,0 +1,52 @@
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-play-button i {
+    color: white;
+    font-size: 28px;
+}
+
+.video-thumbnail {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* ขนาดสูงสุด */
+    border-radius: 1rem;
+}
